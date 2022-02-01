@@ -1,0 +1,83 @@
+Die gewünschte Menge ist zurzeit nicht verfügbar. Bitte wählen Sie die eine andere Position aus oder schreiben Sie uns an, damit wir ein alternatives Angebot unterbreiten oder einen Liefertermin mitteilen können.
+
+[text title] [text url] [text var_lngth] [text var_wdth] [text var_pclss] [text var_plngth] [text var_need] [text var_count] [text var_price]
+
+<label>Name* [text* nm]</label>
+
+<label>E-Mail* [email* em]</label>
+
+<label>Telefon [tel ph]</label>
+
+<label>PlZ* [text* plz]</label>
+
+<label>Ort* [text* ort]</label>
+
+<label>Lieferung bis [date dt]</label>
+
+[acceptance da] Mit dem Absenden der Anfrage akzeptieren Sie unsere <a href="/datenschutzerklaerung/" target="_blank" rel="noopener">Datenschutzerklärung</a> [/acceptance]
+
+[submit "Senden"]
+1
+[_site_title] [nm] [title]
+[_site_title] <info@topholz24.de>
+[_site_admin_email]
+Von: [nm] <[em]>
+Telefon: [ph]
+
+PLZ: [plz] Ort: [ort]
+Lieferung bis [dt]
+
+[title]
+[url]
+
+Länge: [var_lngth]m
+Breite: [var_wdth]m
+
+Sortierung: [var_pclss]
+Länge: [var_plngth]
+
+Flache: [var_need]m2
+Menge: [var_count]St.
+Gesamtpreis: [var_price]
+
+-- 
+Diese E-Mail wurde von einem Kontaktformular von [_site_title] ([_site_url]) gesendet
+Reply-To: [em]
+
+
+
+
+[_site_title] „[your-subject]“
+[_site_title] <info@topholz24.de>
+[your-email]
+Nachrichtentext:
+[your-message]
+
+-- 
+Diese E-Mail wurde von einem Kontaktformular von [_site_title] ([_site_url]) gesendet
+Reply-To: [_site_admin_email]
+
+
+
+Vielen Dank für deine Nachricht. Sie wurde gesendet.
+Beim Versuch, deine Nachricht zu senden, ist ein Fehler aufgetreten. Bitte versuche es später nochmal.
+Ein oder mehrere Felder weisen einen Fehler auf. Bitte überprüfe das und versuche es erneut.
+Beim Versuch, deine Nachricht zu senden, ist ein Fehler aufgetreten. Bitte versuche es später nochmal.
+Du musst die Bedingungen und Konditionen akzeptieren, bevor du deine Nachricht senden kannst.
+Dies ist ein Pflichtfeld.
+Deine Eingabe ist zu lang.
+Deine Eingabe ist zu kurz.
+Beim Hochladen der Datei ist ein unbekannter Fehler aufgetreten.
+Es ist nicht erlaubt, Dateien dieses Typs hochzuladen.
+Diese Datei ist zu groß.
+Beim Hochladen der Datei ist ein Fehler aufgetreten.
+Das Datumsformat ist ungültig.
+Das Datum liegt vor dem frühesten zulässigen Datum.
+Das Datum liegt nach dem spätesten zulässigen Datum.
+Das Zahlenformat ist ungültig.
+Die Zahl ist niedriger als das zulässige Minimum.
+Die Zahl ist größer als das zulässige Maximum.
+Die Antwort auf das Quiz ist falsch.
+Die eingegebene E-Mail-Adresse ist ungültig.
+Die URL ist ungültig.
+Die Telefonnummer ist ungültig.

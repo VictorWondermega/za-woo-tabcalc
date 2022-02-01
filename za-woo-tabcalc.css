@@ -1,0 +1,52 @@
+/**
+ * yep, that is certainly not BEM as is,
+ * but there is no place for this in case of different templates
+ **/
+.za-tabcalc__linkto { align-self: start; margin-bottom: 1rem; }
+
+.mf { display: inline-grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1rem; margin-bottom: 2rem; }
+.mf label { display: block; }
+.mf input, .mf select { width: 100%; box-shadow: none; border-radius: 0; padding: 0.79rem; }
+.mf input:not([type=submit]):not([type=button]), .mf select { border: 1px solid #e4e4e4; background: #fff; }
+.mf input::-webkit-outer-spin-button,
+.mf input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.mf input[type=number] { -moz-appearance: textfield; border-left: 0; border-right: 0; }
+
+.mf .mf__plmn { width: auto; padding: 0.85rem; min-width: 36px; border: 1px solid #e4e4e4; background: #fff; color: #333; cursor: pointer; }
+.mf__field--dbl h4 { margin-bottom: 0; }
+.mf__field--dbl,
+.mf__submit { grid-column: 1 / 3; }
+
+.za-tabcalc__wpcf7 { padding: 1.4rem; background: #fffaf3; border: 1px solid #dfdad3; }
+.za-tabcalc__wpcf7 input:not([type=submit]) { border: 1px solid #ddd; background: #fff; box-shadow: none; border-radius: 0; padding: 1rem; }
+.za-tabcalc__wpcf7 input.wpcf7-date { padding: 0.8rem 1rem; } 
+
+.za-tabcalc__wpcf7 .wpcf7-form { display: grid; grid-template-columns: repeat(4,1fr); grid-gap: 1rem; }
+.za-tabcalc__wpcf7 .wpcf7-form p { display: block; padding: 0; margin: 0; }
+.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(-n+4) { grid-column: 1 / 5; }
+.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(5n+5) { grid-column: 1 / 3; }
+.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(5n+6) { grid-column: 3 / 5; }
+.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(7) { grid-column: 1 / 2; }
+.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(8) { grid-column: 2 / 4; }
+.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(9) { grid-column: 4 / 5; }
+.za-tabcalc__wpcf7 .wpcf7-submit { float: right; }
+.za-tabcalc__wpcf7 .wpcf7-response-output { grid-column: 1 / 5; }
+
+.za-tabcalc__result { font-size: 1.4rem; padding: 1.4rem; background: #fefffa; border: 1px solid #dedfda; }
+.za-tabcalc__title { margin: 0; }
+.za-tabcalc__row--buy { margin: 1rem 0 0 0; }
+
+@media (max-width: 800px) {
+
+	.za-tabcalc__wpcf7 .wpcf7-form { grid-template-columns: repeat(2,1fr); }
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(-n+4),
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(5n+11),
+	.za-tabcalc__wpcf7 .wpcf7-form * { grid-column: 1 / 3; }
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(5) { grid-column: 1 / 2; }
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(6) { grid-column: 2 / 3; }
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(7) { grid-column: 1 / 2; }
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(8) { grid-column: 2 / 3; }
+	.za-tabcalc__wpcf7 .wpcf7-form *:nth-child(9) { grid-column: 1 / 3; }
+	.za-tabcalc__wpcf7 .wpcf7-response-output { grid-column: 1 / 3; }
+
+}
