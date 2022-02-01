@@ -1,0 +1,19 @@
+Die gewünschte Menge ist zurzeit nicht verfügbar. Bitte wählen Sie die eine andere Position aus oder schreiben Sie uns an, damit wir ein alternatives Angebot unterbreiten oder einen Liefertermin mitteilen können.
+
+[text title] [text url] [text var_lngth] [text var_wdth] [text var_pclss] [text var_plngth] [text var_need] [text var_count] [text var_price]
+
+<label>Name* [text* nm]</label>
+
+<label>E-Mail* [email* em]</label>
+
+<label>Telefon [tel ph]</label>
+
+<label>PlZ* [text* plz]</label>
+
+<label>Ort* [text* ort]</label>
+
+<label>Lieferung bis [date dt]</label>
+
+[acceptance da] Mit dem Absenden der Anfrage akzeptieren Sie unsere <a href="/datenschutzerklaerung/" target="_blank" >Datenschutzerklärung</a> [/acceptance]
+
+[submit "Senden"]

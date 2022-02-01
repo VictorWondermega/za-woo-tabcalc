@@ -1,0 +1,21 @@
+a:9:{s:6:"active";b:1;s:7:"subject";s:26:"[_site_title] [nm] [title]";s:6:"sender";s:35:"[_site_title] <[_site_admin_email]>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:335:"Von: [nm] <[em]>
+Telefon: [ph]
+
+PLZ: [plz] Ort: [ort]
+Lieferung bis [dt]
+
+[title]
+[url]
+
+Länge: [var_lngth]m
+Breite: [var_wdth]m
+
+Sortierung: [var_pclss]
+Länge: [var_plngth]
+
+Flache: [var_need]m2
+Menge: [var_count]St.
+Gesamtpreis: [var_price]
+
+-- 
+Diese E-Mail wurde von einem Kontaktformular von [_site_title] ([_site_url]) gesendet";s:18:"additional_headers";s:14:"Reply-To: [em]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}
