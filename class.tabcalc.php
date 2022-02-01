@@ -55,7 +55,7 @@
 		$re = $wpdb->get_results('SELECT id FROM '.$wpdb->posts.' WHERE post_title LIKE \'tabcalc\' and post_type LIKE \'wpcf7%\' ');
 		$html.= '<div class="za-tabcalc__wpcf7" style=" display: '.(($re && $var['qty'] > $re['count'])?'block':'none').'; " >'.do_shortcode('[contact-form-7 id="'.$re->ID.'" title="tabcalc"]').'</div>';
 
-		// variations and strings as JSON (translation later)
+		// variations and strings as JSON (translation later) // + wp-rocket lazyload problem 
 		$html.= '<script> 
 			var za_tabcalc_var = JSON.parse(\''.json_encode($var).'\'); 
 			var za_tabcalc_lng = JSON.parse(\''.json_encode(array(
