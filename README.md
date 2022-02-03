@@ -13,4 +13,4 @@ Download this (including wpcf7 dir), pack as .zip, install to WP as ususal
 - [ ] Learn and add i18n / translations
 - [ ] Extract View from class
 - [ ] Add admin part for editing settings
-- [ ] Learn how and add composer installation
+- [ ] Learn how and add composer and webpack
